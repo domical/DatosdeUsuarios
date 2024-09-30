@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    display: flex;
+    justify-content: center; /* Centrar el contenido */
+    align-items: center; 
+    flex-direction: column; /* Colocar el contenido en columna */
+    border: 1px solid #ccc; /* Borde del body (estrecho) */
+    padding: 2px; /* Espaciado interno del body */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* Sombra para un efecto de profundidad */
+}
+
+#user-data {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrar los elementos */
+}
+
+.user-card {
+    margin-bottom: 20px; /* Espaciado entre usuarios */
+    width: 250px; /* Ancho del rectángulo */
+    text-align: center; /* Centrar texto */
+}
+
+img {
+    margin-bottom: 10px; /* Espaciado entre la imagen y el texto */
+    width: 100px; /* Ajustar tamaño de la imagen */
+}
